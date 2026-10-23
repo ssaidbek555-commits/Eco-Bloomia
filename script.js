@@ -15,11 +15,11 @@ const CONFIG = {
       { n: '3', label: 'loyiha himoyasi' }
     ],
     members: [
-      { name: 'Gafurov D.', role: 'Prezident', photo: 'Gafur.jpg', about: 'Jamoani yigʻadi va rejani ushlab turadi. Maktabda bir martalik plastiksiz hayotni orzu qiladi.', tip: 'Oʻzing bilan qayta ishlatiladigan shisha olib yur, bu eng oddiy birinchi qadam.' },
-      { name: 'Bolikulova Z.', role: 'Vice Prezident', photo: 'Bolikul.jpg', about: 'Loyihalarimiz uchun oʻlchaydi, hisoblaydi va maʼlumot izlaydi.', tip: 'Tashlashdan oldin markirovkani tekshir: koʻp qadoqlarni topshirish mumkin.' },
-      { name: 'Ifora', role: 'Dizayner', photo: 'Ifora.jpg', about: 'Plakatlar chizadi va eko-gʻoyalarni oʻqishni xohlaydigan qilib beradi.', tip: 'Varaqning ikkala tomoniga chop et, qoralamalarni yozuvlar uchun ishlat.' },
-      { name: 'Saidbek', role: 'пока что янги', photo: 'Said.jpg', about: 'Hasharlarni suratga oladi va tozalashdan keyin joy qanday oʻzgarishini koʻrsatadi.', tip: '«Oldin» va «keyin» suratga ol: bu boshqalar uchun eng yaxshi dalil.' },
-      { name: 'Umida Shuxratovna', role: 'Koordinator', photo: 'Umida.jpg', about: 'Kichik sinflar uchun oʻyinlar va mini-maʼruzalar tayyorlaydi.', tip: 'Chiqayotganingda chiroq va suvni oʻchir. Parta doshingga ham eslat.' }
+      { name: 'Gafurov D.', role: 'Prezident', photo: 'photos/Gafur.jpg', about: 'Jamoani yigʻadi va rejani ushlab turadi. Maktabda bir martalik plastiksiz hayotni orzu qiladi.', tip: 'Oʻzing bilan qayta ishlatiladigan shisha olib yur, bu eng oddiy birinchi qadam.' },
+      { name: 'Bolikulova Z.', role: 'Vice Prezident', photo: 'photos/Bolikul.jpg', about: 'Loyihalarimiz uchun oʻlchaydi, hisoblaydi va maʼlumot izlaydi.', tip: 'Tashlashdan oldin markirovkani tekshir: koʻp qadoqlarni topshirish mumkin.' },
+      { name: 'Ifora', role: 'Dizayner', photo: 'photos/Ifora.jpg', about: 'Plakatlar chizadi va eko-gʻoyalarni oʻqishni xohlaydigan qilib beradi.', tip: 'Varaqning ikkala tomoniga chop et, qoralamalarni yozuvlar uchun ishlat.' },
+      { name: 'Saidbek', role: 'пока что янги', photo: 'photos/Said.jpg', about: 'Hasharlarni suratga oladi va tozalashdan keyin joy qanday oʻzgarishini koʻrsatadi.', tip: '«Oldin» va «keyin» suratga ol: bu boshqalar uchun eng yaxshi dalil.' },
+      { name: 'Umida Shuxratovna', role: 'Koordinator', photo: 'photos/Umida.jpg', about: 'Kichik sinflar uchun oʻyinlar va mini-maʼruzalar tayyorlaydi.', tip: 'Chiqayotganingda chiroq va suvni oʻchir. Parta doshingga ham eslat.' }
     ],
     achievements: [
       { when: '2024-yil kuzi', title: 'Maktab eko-loyihalar tanlovi', result: 'Gʻalaba', kind: 'win', text: 'Maktab koridorlari uchun chiqindilarni ajratib yigʻish loyihasini taqdim etdik.' },
