@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eco-Bloomia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: 'var(--bg)', surface: 'var(--surface)', sand: 'var(--sand)', line: 'var(--line)',
+          ink: 'var(--ink)', muted: 'var(--muted)', moss: 'var(--moss)', 'moss-soft': 'var(--moss-soft)',
+          leaf: 'var(--leaf)', clay: 'var(--clay)', 'clay-soft': 'var(--clay-soft)', onmoss: 'var(--onmoss)'
+        },
+        fontFamily: {
+          display: ['Unbounded', 'Onest', 'system-ui', 'sans-serif'],
+          body: ['Onest', 'system-ui', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-x-4 gap-y-1 py-3">
+    <a href="#top" class="flex items-center gap-2 font-display font-semibold text-lg text-moss">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 5C82 26 90 62 50 95 10 62 18 26 50 5Z" fill="var(--leaf)"/><path d="M50 22V82M50 48 34 36M50 62 66 48" stroke="var(--bg)" stroke-width="5" stroke-linecap="round" fill="none"/></svg>
+      <span data-team>Eco-Bloomia</span>
+    </a>
+    <nav class="order-3 md:order-2 w-full md:w-auto flex gap-1 overflow-x-auto no-scrollbar text-sm" aria-label="Sayt boʻlimlari">
+      <a class="navlink" href="#about">Jamoa haqida</a>
+      <a class="navlink" href="#team">Ishtirokchilar</a>
+      <a class="navlink" href="#achievements">Yutuqlar</a>
+      <a class="navlink" href="#play">Eko-oʻyinlar</a>
+      <a class="navlink" href="#contact">Aloqa</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary order-2 md:order-3 !py-2 !px-4 text-sm">Bogʻlanish</a>
+  </div>
+</header>
+ 
+<main id="top" class="max-w-6xl mx-auto pb-10">
+ 
+  <!-- HERO -->
+  <section class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center pt-10 pb-14 lg:pt-16 lg:pb-20">
+    <div class="min-w-0">
+      <p class="eyebrow mb-4"><span data-school>__-maktab</span> · maktab eko-jamoasi</p>
+      <h1 class="font-display font-semibold text-3xl sm:text-4xl lg:text-[2.9rem] leading-[1.12] tracking-tight text-ink">
+        Tabiat kutib turmaydi. Biz maktabdan boshlaymiz.
+      </h1>
+      <p class="mt-5 text-lg text-muted max-w-xl">
+        Biz — <b class="text-ink font-semibold" data-team>EkoDozor</b>: chiqindilarni saralaymiz, hasharlarda qatnashamiz, eko-darslar oʻtkazamiz va tanlovlarda loyihalarimizni himoya qilamiz. Bizga qoʻshiling, hovlimiz, maktabimiz va shahrimiz toza boʻlsin.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="#achievements" class="btn btn-primary">Loyihalarimiz</a>
+        <a href="#contact" class="btn btn-ghost">Qoʻllab-quvvatlash yoki bogʻlanish</a>
+      </div>
+    </div>
+ 
+    <div class="panel-soft relative p-6 sm:p-10 min-h-[18rem] flex items-center justify-center overflow-hidden" aria-hidden="true">
+      <svg viewBox="0 0 320 320" class="w-full max-w-[22rem]">
+        <circle cx="160" cy="160" r="140" fill="var(--surface)"/>
+        <circle cx="160" cy="160" r="104" fill="none" stroke="var(--line)" stroke-width="2" stroke-dasharray="4 8"/>
+        <path d="M160 52C228 98 244 176 160 262 76 176 92 98 160 52Z" fill="var(--leaf)"/>
+        <path d="M160 88V236M160 150 126 124M160 188 198 160M160 120 192 98" stroke="var(--surface)" stroke-width="7" stroke-linecap="round" fill="none"/>
+        <circle cx="68" cy="82" r="14" fill="var(--clay)"/>
+        <circle cx="262" cy="236" r="10" fill="var(--moss)"/>
+        <circle cx="252" cy="70" r="7" fill="var(--clay)"/>
+      </svg>
+      <div class="absolute left-4 bottom-4 sm:left-6 sm:bottom-6 bg-surface border border-line rounded-full px-4 py-2 text-sm font-semibold text-moss">Saralaymiz · Ekamiz · Oʻrgatamiz</div>
+    </div>
+  </section>
+ 
+  <!-- ABOUT -->
+  <section id="about" class="py-12">
+    <div class="grid lg:grid-cols-5 gap-8 lg:gap-12">
+      <div class="lg:col-span-3 min-w-0">
+        <p class="eyebrow mb-3">Jamoamiz haqida</p>
+        <h2 class="font-display font-semibold text-2xl sm:text-3xl leading-tight mb-5">Hammasi maktab hovlisidagi bitta axlat xaltasidan boshlandi</h2>
+        <div class="space-y-4 text-muted max-w-2xl">
+          <p>Kuzda bir nechta sinfdoshlar darsdan keyin qolib, hovlini tozalashdi. Xalta ogʻir chiqdi, gʻoya esa oddiy edi: agar biz shu yerda yashasak, joyga yilda bir marta emas, har kuni gʻamxoʻrlik qilish kerak.</p>
+          <p>Shunday qilib, <b class="text-ink font-semibold" data-team>EkoDozor</b> jamoasi tugʻildi. Maktabda chiqindilarni ajratib yigʻish uchun konteynerlar oʻrnatdik, kichik sinflar uchun birinchi eko-darslarni oʻtkazdik va loyihalarimizni koʻrsatish hamda boshqa jamoalardan oʻrganish uchun tanlovlarda qatnasha boshladik.</p>
+          <p>Bizni oddiy qoida birlashtiradi: kamroq gap, koʻproq darhol koʻrinadigan ishlar.</p>
+        </div>
+      </div>
+      <!-- Raqamlarni oʻzingiznikiga almashtiring -->
+      <div class="lg:col-span-2 grid grid-cols-2 gap-3 content-start" id="about-stats"></div>
+    </div>
+  </section>
+ 
+  <!-- TEAM -->
+  <section id="team" class="py-12">
+    <p class="eyebrow mb-3">Jamoa ishtirokchilari</p>
+    <h2 class="font-display font-semibold text-2xl sm:text-3xl leading-tight mb-8 max-w-2xl">Besh kishi, har birining oʻz roli bor</h2>
+    <div id="team-grid" class="grid sm:grid-cols-2 lg:grid-cols-6 gap-4"></div>
+  </section>
+ 
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="py-12">
+    <p class="eyebrow mb-3">Yutuqlar va musobaqalar</p>
+    <h2 class="font-display font-semibold text-2xl sm:text-3xl leading-tight mb-8 max-w-2xl">Qayerda qatnashdik va nimaga tayyorlanmoqdamiz</h2>
+    <ol id="ach-list" class="flex flex-col gap-3"></ol>
+  </section>
+ 
+  <!-- PLAY -->
+  <section id="play" class="py-12">
+    <p class="eyebrow mb-3">Eko-oʻyinlar</p>
+    <h2 class="font-display font-semibold text-2xl sm:text-3xl leading-tight mb-6 max-w-2xl">Hissangni hisobla va oʻzingni sinab koʻr</h2>
+ 
+    <div role="tablist" aria-label="Oʻyin tanlash" class="inline-flex flex-wrap gap-1 p-1 rounded-full bg-sand mb-6">
+      <button role="tab" class="tab" id="tab-calc" aria-selected="true" aria-controls="pane-calc">Plastik hisoblagichi</button>
+      <button role="tab" class="tab" id="tab-quiz" aria-selected="false" aria-controls="pane-quiz">Sen qanday ekologsan?</button>
+    </div>
+ 
+    <!-- Calculator -->
+    <div id="pane-calc" role="tabpanel" aria-labelledby="tab-calc" class="panel p-5 sm:p-8 grid lg:grid-cols-2 gap-8">
+      <div class="min-w-0 flex flex-col gap-5">
+        <p class="text-muted">Haftasiga qancha bir martalik plastikni qayta ishlatiladigan narsalar bilan almashtirasan: shisha, sumka, krujka?</p>
+        <label class="block" for="r-bottle">
+          <span class="flex justify-between gap-3 font-semibold"><span>Haftasiga suv shishalari</span><output id="o-bottle" class="tnum text-moss">5</output></span>
+          <input type="range" id="r-bottle" min="0" max="20" value="5">
+        </label>
+        <label class="block" for="r-bag">
+          <span class="flex justify-between gap-3 font-semibold"><span>Haftasiga doʻkon paketlari</span><output id="o-bag" class="tnum text-moss">4</output></span>
+          <input type="range" id="r-bag" min="0" max="20" value="4">
+        </label>
+        <label class="block" for="r-cup">
+          <span class="flex justify-between gap-3 font-semibold"><span>Bir martalik stakan va idishlar</span><output id="o-cup" class="tnum text-moss">2</output></span>
+          <input type="range" id="r-cup" min="0" max="20" value="2">
+        </label>
+        <label class="block" for="r-people">
+          <span class="flex justify-between gap-3 font-semibold"><span>Sinfing yoki jamoangda necha kishi bor</span><output id="o-people" class="tnum text-moss">1</output></span>
+          <input type="range" id="r-people" min="1" max="30" value="1">
+        </label>
+      </div>
+ 
+      <div class="panel-soft p-5 sm:p-7 flex flex-col gap-4 min-w-0">
+        <p class="eyebrow !text-moss">Bir yil davomida</p>
+        <div class="flex items-baseline gap-2 flex-wrap">
+          <span id="res-kg" class="font-display font-semibold text-5xl text-moss tnum">7,3</span>
+          <span class="font-semibold">kg plastik chiqindiga aylanmaydi</span>
+        </div>
+        <div>
+          <div class="bar" role="progressbar" aria-label="25 kg maqsadga erishish" aria-valuemin="0" aria-valuemax="100" aria-valuenow="29" id="goal-bar"><span id="goal-fill" style="width:29%"></span></div>
+          <p class="text-sm text-muted mt-2">Jamoa maqsadi: <b class="text-ink">25 kg</b> yiliga. Bajarildi: <span id="goal-pct" class="tnum">29</span>%.</p>
+        </div>
+        <dl class="grid grid-cols-2 gap-3 text-sm">
+          <div class="bg-surface rounded-2xl p-4"><dt class="text-muted">Buyumlar soni</dt><dd id="res-items" class="font-display font-semibold text-xl tnum">572</dd></div>
+          <div class="bg-surface rounded-2xl p-4"><dt class="text-muted">CO₂, taxminan</dt><dd class="font-display font-semibold text-xl tnum"><span id="res-co2">19</span> kg</dd></div>
+        </dl>
+        <p class="text-sm text-muted" id="res-line"></p>
+        <p class="text-xs text-muted">Hisob-kitob taxminiy: shisha 20 g, paket 6 g, stakan 8 g plastik, yilda 52 hafta.</p>
+      </div>
+    </div>
+ 
+    <!-- Quiz -->
+    <div id="pane-quiz" role="tabpanel" aria-labelledby="tab-quiz" class="panel p-5 sm:p-8 max-w-3xl" hidden>
+      <div id="quiz-body"></div>
+    </div>
+  </section>
+ 
+  <!-- CONTACT -->
+  <section id="contact" class="py-12">
+    <div class="panel-soft p-6 sm:p-10 grid lg:grid-cols-2 gap-10">
+      <div class="min-w-0">
+        <p class="eyebrow mb-3">Aloqa va chaqiriq</p>
+        <h2 class="font-display font-semibold text-2xl sm:text-3xl leading-tight mb-4">Biz bilan birga tozalash, ekish yoki oʻrganishni xohlaysizmi?</h2>
+        <p class="text-muted mb-6 max-w-md">Hasharga keling, loyiha taklif qiling, saralash uchun materiallar bilan yordam bering yoki oʻz eko-gʻoyangiz haqida gapirib bering.</p>
+ 
+        <div class="bg-surface rounded-2xl p-4 mb-4">
+          <p class="text-sm text-muted">Jamoa pochtasi</p>
+          <div class="flex flex-wrap items-center gap-3">
+            <span id="mail-text" class="font-semibold break-all select-all">ecoteam@example.com</span>
+            <button type="button" id="mail-copy" class="btn btn-ghost !py-1.5 !px-4 text-sm">Nusxalash</button>
+          </div>
+        </div>
+ 
+        <ul id="social-list" class="flex flex-wrap gap-2"></ul>
+      </div>
+ 
+      <form id="contact-form" class="min-w-0 flex flex-col gap-3" novalidate>
+        <label class="block" for="f-name"><span class="font-semibold text-sm">Ismingiz</span>
+          <input class="field mt-1" id="f-name" type="text" placeholder="Masalan, Madina" autocomplete="name"></label>
+        <label class="block" for="f-contact"><span class="font-semibold text-sm">Siz bilan qanday bogʻlanamiz</span>
+          <input class="field mt-1" id="f-contact" type="text" placeholder="Pochta yoki Telegram" autocomplete="off"></label>
+        <label class="block" for="f-msg"><span class="font-semibold text-sm">Xabar</span>
+          <textarea class="field mt-1" id="f-msg" rows="4" placeholder="Hasharda yordam bermoqchiman…"></textarea></label>
+        <p id="f-error" class="text-sm text-clay" role="alert" hidden></p>
+        <button type="submit" class="btn btn-primary self-start">Xabarni tayyorlash</button>
+ 
+        <div id="f-result" class="bg-surface rounded-2xl p-4" hidden>
+          <p class="text-sm text-muted mb-2">Bu shakl oʻzi hech narsa yubormaydi. Matnni nusxalab, jamoa pochtasiga yoki ijtimoiy tarmoqlarga yuboring.</p>
+          <textarea id="f-out" class="field text-sm" rows="5" readonly></textarea>
+          <div class="flex items-center gap-3 mt-2">
+            <button type="button" id="f-copy" class="btn btn-ghost !py-1.5 !px-4 text-sm">Matnni nusxalash</button>
+            <span id="f-copied" class="text-sm text-moss" hidden>Nusxalandi</span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+ 
+<footer class="max-w-6xl mx-auto border-t border-line py-8 text-sm text-muted flex flex-wrap justify-between gap-2">
+  <span>© <span id="year">2026</span> <span data-team>EkoDozor</span> · <span data-school>__-maktab</span></span>
+  <span>Sayyora uchun maktab jamoasi tomonidan yaratilgan</span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+ 
